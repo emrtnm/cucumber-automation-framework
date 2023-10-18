@@ -7,4 +7,96 @@
 ![Maven Central](https://img.shields.io/maven-central/v/tech.grasshopper/extentreports-cucumber7-adapter?versionSuffix=1.9.2&label=Grashopper)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-Cucumber BDD Automation Framework for your automation projects. 
+Cucumber BDD Automation Framework for your automation projects. It provides you with a ready folder and library structure to quickly get started on your test automation projects.
+
+Getting Started
+---------------
+
+The easiest way to get started is to clone the repository:
+
+```bash
+# File > New > Project From Version Control 
+# Copy to URL
+git@github.com:emrtnm/cucumber-automation-framework.git
+
+# open project at Intellij
+# select project JDK
+jdk1.8
+
+# Load Pom
+Click to pom.xml > Maven > Reload Project
+
+# Run All Test
+Click to Runners > TestRunnerAll and Run
+
+# Run Smoke Test
+Click to Runner > TestRunnerSmoke and Run
+
+```
+
+List of Dependencies
+----------------
+
+| Package      | Description                            |
+|--------------|----------------------------------------|
+| TestNG       | Next Generation Testing Tool.          |
+| Selenium     | Browser Automation Framework.          |
+| slf4j        | The Simple Logging Facade for Java.    |
+| commons.io   | The Apache Commons IO library.         |
+| cucumber     | Cucumber is a tool that supports BDD.  |
+| grasshopper  | HTML & PDF Report plugin for cucumber. |
+
+## File Structure
+```bash
+|-- src
+|   |-- main
+|       |-- java
+|       |-- resources
+|
+|   |-- test
+|       |-- java
+|           |-- FeatureFiles
+|               |-- Cucumber Feature Files
+|           |-- PageObjectModels
+|               |-- Locators, Page Object Model Files
+|           |-- Runners
+|               |-- AllTest
+|               |-- ParallelTest
+|               |-- ParallelTest.xml
+|               |-- RegressionTest
+|               |-- SmokeTest
+|           |-- StepDefinitions
+|               |-- Hooks
+|               |-- * Test Class Files
+|           |-- Utilities
+|               |-- BaseDriver
+|               |-- Events
+|               |-- ExcelUtility
+|       |-- resources
+|       |-- results
+|           |-- .gitkeep
+|           |-- .gitignore
+|
+|-- .gitignore
+|-- LICENSE
+|-- pom.xml
+|-- README.md
+
+```
+
+## Rules Of Pull Request
+- Update your codes from main branch before you pull request
+- Don't use Thread.Sleep
+- Don't use extra space
+- Use logical comment lines
+
+## License
+
+This project is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+
+### Make A Contribution!
+If you think that anything here could be improved, please don't hesitate to contribute. Thank you very much for helping this repository become much more suitable for its purpose and more useful to a larger number of people.
+
+**#cucumber** **#bdd** **#framework** **#boilerplate** **#testing** **#sdet** **#automation**
+**#test** **#selenium** **#java** **#testng** **#gherkin**
