@@ -92,11 +92,11 @@ List of Dependencies
 
 ## License
 
-This project is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+This project is open-sourced software licensed under the [GPL-3.0 license](https://opensource.org/license/gpl-3-0/).
 
 
 ### Make A Contribution!
-If you think that anything here could be improved, please don't hesitate to contribute. Thank you very much for helping this repository become much more suitable for its purpose and more useful to a larger number of people.
+If you think that anything here could be improved, please don't hesitate to contribute. Anyone who wants to, regardless of their ability, skill, or background, can contribute to this project. All contributions are made for the benefit of the community. Thanks very much for helping this repository become much more suitable for its purpose and more useful to a larger number of people.
 
 **#cucumber** **#bdd** **#framework** **#boilerplate** **#testing** **#sdet** **#automation**
 **#test** **#selenium** **#java** **#testng** **#gherkin**
