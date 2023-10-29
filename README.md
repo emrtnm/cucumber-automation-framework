@@ -69,7 +69,7 @@ List of Dependencies
 |               |-- Hooks
 |               |-- * Test Class Files
 |           |-- Utilities
-|               |-- BaseDriver
+|               |-- DriverManager
 |               |-- Events
 |               |-- ExcelUtility
 |       |-- resources
