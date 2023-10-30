@@ -61,6 +61,7 @@ List of Dependencies
 |               |-- Locators, Page Object Model Files
 |           |-- Runners
 |               |-- AllTest
+|               |-- AuthTest
 |               |-- ParallelTest
 |               |-- ParallelTest.xml
 |               |-- RegressionTest
