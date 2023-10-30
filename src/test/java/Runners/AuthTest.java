@@ -6,12 +6,12 @@ import io.cucumber.testng.CucumberOptions;
 import org.testng.annotations.AfterClass;
 
 @CucumberOptions(
-        tags = "@Smoke",
+        tags = "@Auth",
         features = {"src/test/java/FeatureFiles"},
         glue = {"StepDefinitions"},
         plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 )
-public class SmokeTest extends AbstractTestNGCucumberTests {
+public class AuthTest extends AbstractTestNGCucumberTests {
     @AfterClass
     public  static void writeExtentReport(){
         ExtentService.getInstance().setSystemInfo("Operating System Name", System.getProperty("os.name"));
@@ -21,6 +21,6 @@ public class SmokeTest extends AbstractTestNGCucumberTests {
         ExtentService.getInstance().setSystemInfo("Username",System.getProperty("user.name"));
         ExtentService.getInstance().setSystemInfo("User Home Directory",System.getProperty("user.home"));
         ExtentService.getInstance().setSystemInfo("User Working Directory",System.getProperty("user.dir"));
-        ExtentService.getInstance().setSystemInfo("Test Type", "Smoke Test in All Features");
+        ExtentService.getInstance().setSystemInfo("Test Type", "Auth Test in All Features");
     }
 }
