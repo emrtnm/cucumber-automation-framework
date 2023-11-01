@@ -5,7 +5,7 @@
 ![Maven Central](https://img.shields.io/maven-central/v/org.slf4j/slf4j-api?versionSuffix=1.8.0-beta2&label=Slf4j)
 ![Maven Central](https://img.shields.io/maven-central/v/org.apache.commons/commons-lang3?versionSuffix=3.12.0&label=Apache%20Commons)
 ![Maven Central](https://img.shields.io/maven-central/v/tech.grasshopper/extentreports-cucumber7-adapter?versionSuffix=1.9.2&label=Grashopper)
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 Cucumber BDD Automation Framework for your automation projects. It provides you with a ready folder and library structure to quickly get started on your test automation projects.
 
@@ -85,7 +85,7 @@ List of Dependencies
 
 ## License
 
-This project is open-sourced software licensed under the [GPL-3.0 license](https://opensource.org/license/gpl-3-0/).
+This project is open-sourced software licensed under the [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0).
 
 
 ### Make A Contribution!
