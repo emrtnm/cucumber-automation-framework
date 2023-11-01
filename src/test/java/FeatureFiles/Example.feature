@@ -1,6 +1,6 @@
 Feature: Example Feature Functionality
 
-  @Smoke, @Regression, @Auth
+  @Smoke @Regression @Auth
   Scenario: Search something
     Given Enter "James Gosling" to search box
     And Click to search button

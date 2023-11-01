@@ -62,8 +62,6 @@ List of Dependencies
 |           |-- Runners
 |               |-- AllTest
 |               |-- AuthTest
-|               |-- ParallelTest
-|               |-- ParallelTest.xml
 |               |-- RegressionTest
 |               |-- SmokeTest
 |           |-- StepDefinitions
@@ -84,12 +82,6 @@ List of Dependencies
 |-- README.md
 
 ```
-
-## Rules Of Pull Request
-- Update your codes from main branch before you pull request
-- Don't use Thread.Sleep
-- Don't use extra space
-- Use logical comment lines
 
 ## License
 
