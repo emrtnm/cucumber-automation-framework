@@ -6,9 +6,14 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
+import java.io.File;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
 public class Events {
     public static void sendKeys(WebElement element, String text) {
         DriverManager.getWait().until(ExpectedConditions.visibilityOf(element));
+        element.clear();
         element.sendKeys(text);
     }
 
@@ -35,5 +40,12 @@ public class Events {
     public static Select select(WebElement element) {
         DriverManager.getWait().until(ExpectedConditions.elementToBeClickable(element));
         return new Select(element);
+    }
+
+    public static void upload(WebElement element, String filePath) {
+        Events.scrollToElement(element);
+        Path path = Paths.get(filePath);
+        File imagePath = new File(path.toUri());
+        Events.sendKeys(element, imagePath.toString());
     }
 }
