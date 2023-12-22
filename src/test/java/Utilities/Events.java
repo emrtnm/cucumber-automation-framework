@@ -11,6 +11,9 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public class Events {
+    private Events() {
+    }
+
     public static void sendKeys(WebElement element, String text) {
         DriverManager.getWait().until(ExpectedConditions.visibilityOf(element));
         element.clear();
