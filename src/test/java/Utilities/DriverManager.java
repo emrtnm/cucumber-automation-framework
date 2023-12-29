@@ -14,6 +14,9 @@ public class DriverManager {
     public static WebDriver driver;
     public static WebDriverWait wait;
 
+    private DriverManager() {
+    }
+
     public static WebDriver get() {
         Logger logger = Logger.getLogger("");
         logger.setLevel(Level.SEVERE);
