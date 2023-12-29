@@ -12,7 +12,7 @@ import org.testng.annotations.AfterClass;
 )
 public class AllTest extends AbstractTestNGCucumberTests {
     @AfterClass
-    public  static void writeExtentReport(){
+    public void writeExtentReport(){
         ExtentService.getInstance().setSystemInfo("Operating System Name", System.getProperty("os.name"));
         ExtentService.getInstance().setSystemInfo("Operating System Version", System.getProperty("os.version"));
         ExtentService.getInstance().setSystemInfo("Operating System Arch", System.getProperty("os.arch"));
