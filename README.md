@@ -27,7 +27,7 @@ jdk1.8
 Click to pom.xml > Maven > Reload Project
 
 # Run All Test
-Click to Runners > TestRunnerAll and Run
+Click to runners > TestRunnerAll and Run
 
 # Run Smoke Test
 Click to Runner > TestRunnerSmoke and Run
@@ -55,19 +55,19 @@ List of Dependencies
 |
 |   |-- test
 |       |-- java
-|           |-- FeatureFiles
+|           |-- featurefiles
 |               |-- Cucumber Feature Files
-|           |-- PageObjectModels
+|           |-- pageobjectmodels
 |               |-- Locators, Page Object Model Files
-|           |-- Runners
+|           |-- runners
 |               |-- AllTest
 |               |-- AuthTest
 |               |-- RegressionTest
 |               |-- SmokeTest
-|           |-- StepDefinitions
+|           |-- stepdefinitions
 |               |-- Hooks
 |               |-- * Test Class Files
-|           |-- Utilities
+|           |-- utilities
 |               |-- DriverManager
 |               |-- Events
 |               |-- ExcelUtility

@@ -1,7 +1,7 @@
-package StepDefinitions;
+package stepdefinitions;
 
-import PageObjectModels.Example;
-import Utilities.Events;
+import pageobjectmodels.Example;
+import utilities.Events;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;

@@ -1,4 +1,4 @@
-package Utilities;
+package utilities;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;

@@ -1,6 +1,6 @@
-package StepDefinitions;
+package stepdefinitions;
 
-import Utilities.DriverManager;
+import utilities.DriverManager;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;

@@ -1,4 +1,4 @@
-package Utilities;
+package utilities;
 
 import io.cucumber.java.Scenario;
 import org.apache.poi.ss.usermodel.*;
