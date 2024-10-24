@@ -19,7 +19,7 @@ public class ExcelUtility {
             System.out.println("e = " + e.getMessage());;
         }
 
-        for (int i = 0; i < sheet.getPhysicalNumberOfRows(); i++) {
+        for (int i = 0; i < Objects.requireNonNull(sheet).getPhysicalNumberOfRows(); i++) {
             ArrayList<String> cell = new ArrayList<>();
             for (int j = 0; j < cellCount; j++) {
                 cell.add(sheet.getRow(i).getCell(j).toString());
@@ -67,6 +67,7 @@ public class ExcelUtility {
                 System.out.println("ex.getMessage() = " + ex.getMessage());
             }
 
+            assert sheet != null;
             Row newCell = sheet.createRow(sheet.getPhysicalNumberOfRows());
 
             Cell c1 = newCell.createCell(0);
